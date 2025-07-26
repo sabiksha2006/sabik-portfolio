@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><link rel="stylesheet" href="style.css">
+<body>
+    <div class="cont">
+        <div class="contdiv1">
+            <h2>Sabik</h2>
+        </div>
+        <div class="cont2">
+            <div onclick="cha('home'),this" class="contdiv2">
+            Home
+        </div>
+        <di onclick="cha('about'),this" class="contdiv3">
+            About
+        </di>
+        <div onclick="cha('skill')" class="contdiv4">
+            Skills
+        </div>
+        <div class="contdiv5">
+            Works
+        </div>
+        <div onclick="cha('cont')" class="contdiv6">
+            Contact
+        </div>
+        </div>
+        
+    </div>
+    <div id="home" data-display="flex" class="section">
+        <div class="paracont">
+        <h1>Hi,</h1>
+        <h1>I' am <span>Sabiksha</span></h1>
+        <h1>Web Designer</h1>
+        <div class="parabut">
+            <button onclick="cha('cont')">Contact</button>
+        </div>
+    </div>
+    <div class="imgbox">
+        <img src="image.png" class="divimg">
+        
+    </div>
+    </div>
+
+<div id="about" data-display="block" class="section">
+  <h1 class="abh1">About me</h1>
+  <div class="abimbox"><img class="aboutimg" src="image.png"></div>
+  <div class="paradiv">
+    <p>Hi I'am <span>Sabiksha</span> <br>I'am currently studing 2nd Year in Sri Sairam Institute Of Technology<br><span>Native:</span>Ramanthapuram<br>
+    <span>Mother:</span>Benasir Rani<br>
+    <span>Father:</span>Sikkanther<br>
+    <span>Brother:</span>Mohamed Asrar
+    </p>
+  </div>
+  
+</div>
+<div id="skill" data-display="block" class="section">
+    <div class="skdiv">
+        <h1 class="skill">Skill</h1>
+    </div>
+    <div class="acdiv">
+        <h1 >Accadamic</h1>
+        <ul>
+            <li>C (basic)</li>
+            <li>java (basic)</li>
+            <li>HTML,CSS,JS</li>
+        </ul>
+    </div>
+    <div class="ladiv">
+        <h1>Language</h1>
+        <ul>
+            <li>Tamil</li>
+            <li>English</li>
+        </ul>
+    </div>
+    <div class="prodiv">
+        <h1>
+            Project
+        </h1>
+        <ul>
+            <li>Simple Login Form</li>
+            <li>Product Webpage</li>
+            <li>Calculator</li>
+            <li>Todo List</li>
+        </ul>
+        <div class="dec">
+            <h3>I had <span>80%</span> in my overall Accadamic</h3>
+            <p>The above declared information is ture and best of my knowledge</p>
+        </div>
+    </div>
+</div>
+<div id="cont" data-display="block" class="section">
+    <form class="form">
+        <h1>Contact Me</h1>
+        <h3>Name:Sabiksha</h3>
+        <h3>Ph No:9042431743</h3>
+        <h3>Email:<span>sabiksha@2006</span></h3>
+        <h3>Nationality:India</h3>
+    </form>
+</div>
+    <script src="page.js"></script>
+</body>
+</html>
